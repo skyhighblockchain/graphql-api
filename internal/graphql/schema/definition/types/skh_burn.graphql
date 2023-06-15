@@ -1,0 +1,14 @@
+# SkhBlockBurn represents a native SKH tokens burn record per created block.
+type SkhBlockBurn {
+    # blockNumber represents the number of the block.
+    blockNumber: Long!
+
+    # Timestamp is the unix timestamp at which this block was created.
+    timestamp: Long!
+
+    # amount represents the amount of SKH tokens burned in WEI units (18 digits fixed INT encoded as HEX number).
+    amount: BigInt!
+
+    # skhValue represents SKH value of the burned SKH tokens.
+    skhValue: Float!
+}

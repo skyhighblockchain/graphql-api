@@ -1,0 +1,37 @@
+{
+  "name": "SkyHigh GraphQL API Schema",
+  "schemaPath": "./schema.graphql",
+  "documents": "./**/*.graphql",
+  "extensions": {
+    "endpoints": {
+      "Local GraphQL Endpoint": {
+        "url": "http://localhost:3000/api",
+        "introspect": false
+      },
+      "Dev GraphQL Endpoint": {
+        "url": "https://xapi.skyhighblockchain.com/",
+        "introspect": false
+      },
+      "XAPI1 skyhighblockchain.com": {
+        "url": "https://xapi1.skyhighblockchain.com/graphql",
+        "introspect": false
+      },
+      "xAPI Node A": {
+        "url": "https://xapi-nodea.skyhighblockchain.com/",
+        "introspect": false
+      },
+      "xAPI Node B": {
+        "url": "https://xapi-nodeb.skyhighblockchain.com/",
+        "introspect": false
+      },
+      "xAPI Node C": {
+        "url": "https://xapi-nodec.skyhighblockchain.com/",
+        "introspect": false
+      },
+      "xAPI Node D": {
+        "url": "https://xapi-noded.skyhighblockchain.com/",
+        "introspect": false
+      }
+    }
+  }
+}
